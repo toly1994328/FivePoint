@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--V001-->
+    <declare-styleable name="StellarMap">
+        <attr name="XRegularity" format="integer"/>
+        <attr name="YRegularity" format="integer"/>
+        <attr name="sb" format="reference"/>
+    </declare-styleable>
+
+    <!--V010快速索引：QuickIndexBar-->
+    <declare-styleable name="QuickIndexBar">
+        <attr name="Q_DColor" format="color"/>
+        <attr name="Q_SColor" format="color"/>
+        <attr name="Q_textSize" format="dimension"/>
+    </declare-styleable>
+
+    <!--切换式按钮:SwitchButton-->
+    <declare-styleable name="SwitchButton">
+        <!--按钮图片-->
+        <attr name="kswThumbDrawable" format="reference"/>
+        <!--按钮颜色(开和关颜色相同)-->
+        <attr name="kswThumbColor" format="color|reference"/>
+        <!--内容与四周边距-->
+        <attr name="kswThumbMargin" format="dimension|reference"/>
+        <!--内容与上边距-->
+        <attr name="kswThumbMarginTop" format="dimension|reference"/>
+        <!--内容与下边距-->
+        <attr name="kswThumbMarginBottom" format="dimension|reference"/>
+        <!--内容与左边距-->
+        <attr name="kswThumbMarginLeft" format="dimension|reference"/>
+        <!--内容与右边距-->
+        <attr name="kswThumbMarginRight" format="dimension|reference"/>
+        <!--按钮宽-->
+        <attr name="kswThumbWidth" format="dimension|reference"/>
+        <!--按钮长-->
+        <attr name="kswThumbHeight" format="dimension|reference"/>
+        <!--按钮圆角半径-->
+        <attr name="kswThumbRadius" format="dimension|reference"/>
+        <!--外框圆角半径-->
+        <attr name="kswBackRadius" format="dimension|reference"/>
+        <!--背景图片-->
+        <attr name="kswBackDrawable" format="reference"/>
+        <!--背景颜色-->
+        <attr name="kswBackColor" format="color|reference"/>
+
+        <attr name="kswFadeBack" format="boolean"/>
+        <!--区域增长倍数-->
+        <attr name="kswThumbRangeRatio" format="float"/>
+        <!--动画执行时间ms-->
+        <attr name="kswAnimationDuration" format="integer"/>
+        <!--打开时按钮颜色-->
+        <attr name="kswTintColor" format="color|reference"/>
+        <!--按钮打开后显示的文字-->
+        <attr name="kswTextOn" format="string"/>
+        <!--按钮关闭后显示的文字-->
+        <attr name="kswTextOff" format="string"/>
+        <!--文字相对按钮靠近尺寸 总尺寸会变短-->
+        <attr name="kswTextThumbInset" format="dimension"/>
+        <!--文字相对按钮远离尺寸 总尺寸会变长-->
+        <attr name="kswTextExtra" format="dimension"/>
+        <!--文字相对按钮远离尺寸 总尺寸不变-->
+        <attr name="kswTextAdjust" format="dimension"/>
+    </declare-styleable>
+    <!--切换式按钮-->
+
+
+    <!--剪裁图片-->
+    <declare-styleable name="CropImageView">
+        <attr name="guidelines">
+            <enum name="off" value="0"/>
+            <enum name="onTouch" value="1"/>
+            <enum name="on" value="2"/>
+        </attr>
+        <attr name="fixAspectRatio" format="boolean"/>
+        <attr name="aspectRatioX" format="integer"/>
+        <attr name="aspectRatioY" format="integer"/>
+    </declare-styleable>
+    <!--剪裁图片-->
+
+    <!--星星自定义控件-->
+    <declare-styleable name="StarView">
+        <!--自定义属性名 和 类型-->
+        <attr name="z_star_AngleNum" format="integer"/>
+        <attr name="z_star_height" format="dimension"/>
+        <attr name="z_star_r" format="dimension"/>
+        <attr name="z_star_color" format="reference|color"/>
+        <attr name="z_star_isFill" format="boolean"/>
+    </declare-styleable>
+
+    <!--圆点数字自定义控件-->
+    <declare-styleable name="DotNumView">
+        <!--自定义属性名 和 类型-->
+        <attr name="z_Dot_Height" format="dimension"/>
+        <attr name="z_Dot_text" format="string"/>
+        <attr name="z_Dot_BigColor" format="reference|color"/>
+        <attr name="z_Dot_SmallColor" format="reference|color"/>
+        <attr name="z_Dot_isChecked" format="boolean"/>
+    </declare-styleable>
+
+</resources>    

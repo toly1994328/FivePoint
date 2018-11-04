@@ -14,7 +14,7 @@ import java.io.File;
  * 邮箱：1981462002@qq.com<br/>
  * 说明：
  */
-public class FileUriCompat {
+public class CompatFileUri {
     public static void handle(Context context, String pkg, Intent intent, File file, String type) {
         //判断是否是AndroidN以及更高的版本
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N) {
